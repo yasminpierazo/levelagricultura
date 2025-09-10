@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEVEL AGRICULTURA</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/index.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="./assets/img/logo.png" alt="Logo" />
+      </a>      <ul>
+        <li><sl-icon name="globe2"></sl-icon></li>
+        <li><sl-icon name="search"></sl-icon></li>
+        <li><sl-icon name="list"></sl-icon></li>
+      </ul>
+    </nav>
+  </header>
+  <sl-carousel loop autoplay pagination id="carousel">
+    <sl-carousel-item>
+      <img
+        src="/assets/img/carousel/thumb_1.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        src="/assets/img/carousel/thumb_2.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        src="/assets/img/carousel/thumb_3.png"
+      />
+    </sl-carousel-item>
+  </sl-carousel>
+
+  <sl-carousel loop id="cards">
+    <a href="produtos.html">
+      <sl-carousel-item>
+        <sl-card class="card-image">
+          <img
+            slot="image"
+            src="./assets/img/produtos_thumb.jpg"
+          />
+          Produtos
+        </sl-card>
+      </sl-carousel-item>
+    </a>
+    <a href="equipe.html">
+      <sl-carousel-item>
+        <sl-card class="card-image">
+          <img
+            slot="image"
+            src="./assets/img/equipe_thumb.jpg"
+          />
+          Equipe Level
+        </sl-card>
+      </sl-carousel-item>
+    </a>
+    <a href="sustentalevel.html">
+      <sl-carousel-item>
+        <sl-card class="card-image">
+          <img
+            slot="image"
+            src="./assets/img/sustentalevel_thumb.png"
+          />
+          Sustentalevel
+        </sl-card>
+      </sl-carousel-item>
+    </a>
+  </sl-carousel>
+
+  <section class="noticias">
+    <h1>NOTÍCIAS DO DIA</h1>
+    <h2>LEVEL E EMBRAPA</h2>
+    <p>
+      Com foco em inclusão digital de pequenos e médios produtores, além de auxiliar em questões técnicas e de produtividade, a Embrapa apresentou o RAImundo, um assistente virtual com IA generativa embarcada. Ainda em versão beta, a plataforma é uma parceria da instituição com o Ministério da Agricultura e Pecuária (MAPA), o Ministério do Desenvolvimento Agrário e Agricultura Familiar (MDA) e LEVEL AGRICULTURA.
+      Em comunicado, a Embrapa afirmou que a ferramenta estará disponível gratuitamente para acesso via WhatsApp e que, neste momento, o foco está em validação técnicas, coleta de dados e aprimoramento contínuo. 
+      A ideia do modelo RAImundo é oferecer uma assistência técnica automatizada com base de dados públicos validados, em especial da Embrapa. O objetivo é que o produtor possa ter, a partir da ferramenta, orientações sobre manejo agrícola, clima, mercado, pragas, solo, produção sustentável, entre outros.
+      Outro ponto importante da ferramenta é facilitar o acesso a políticas públicas como PAA, PNAE e Pronaf, explicando de maneira simplificada os requisitos, etapas e documentação necessária. Dado o foco de inclusão digital, a plataforma doi desenvolvida com linguagem acessível, com respostas adaptadas à realidade local de quem está do outro lado da tela. 
+      Afora o apoio técnico e acesso a políticas públicas, outro diferencial da ferramenta é o balcão digital de negócios, que permite compra e venda de produtos, equipamentos e insumos agrícolas diretamente do WhatsApp, mesmo em pequenas quantidades e com uso de georreferenciamento. No primeiro ano de operação, a Embrapa espera chegar a 100 mil usuários do RAImundo.
+    </p>
+    <p>
+      O que você precisa saber em 1 minuto:
+      📱 Seu celular é o novo canivete suíço: Com um simples aplicativo, a câmera do seu celular se transforma em um “agrônomo de bolso”. Tire uma foto de uma folha doente e a IA te diz, em segundos, a praga ou doença mais provável, e como combatê-la.
+      
+      💧 Economia real, com ferramentas gratuitas: A IA pode analisar a previsão do tempo para sua cidade e te ajudar a criar um calendário de irrigação muito mais eficiente, economizando água e energia, que são alguns dos seus maiores custos.
+      
+      📈 Gestão de gente grande para o pequeno produtor: Use a IA para te ajudar a calcular seu custo de produção por cultura e a descobrir qual produto é o mais lucrativo. É ter a clareza de um diretor financeiro, com custo zero.
+      
+      ✅ Um plano para começar hoje: Ao final, você terá um “Comando Mestre” para criar um plano de safra inteligente para sua principal cultura, usando a IA como sua consultora particular para aumentar suas chances de sucesso.
+    </p>
+
+  </section>
+
+  <footer>
+    <p>© 2024 Level Agricultura. Todos os direitos reservados.</p>
+    <ul>
+      <li><a href="#">Política de Privacidade</a></li>
+      <li><a href="#">Termos de Serviço</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </footer>
+  <script>
+  </script>
+</body>
+</html>
